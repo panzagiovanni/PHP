@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php
-  echo "Inserito: ".$_REQUEST["evento"]." posti ".$_REQUEST["num"];
+  echo "Inserito: ".$_REQUEST["evento"]." posti ".$_REQUEST["numPosti"];
   echo " totale = ".$_SESSION["prenotazioni"][$_REQUEST["evento"]]."<br />";
 ?>
 <a href="form1.html">Nuova prenotazione</a><br />
